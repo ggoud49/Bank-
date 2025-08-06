@@ -11,7 +11,7 @@ class Bank
 		}
 		else
 		{
-			return "NO funds";
+			return "Insufficient funds";
 		}	
 	}
 	String deposit(double dAmt)
@@ -70,3 +70,4 @@ class Bank
 	}
 
 }
+
